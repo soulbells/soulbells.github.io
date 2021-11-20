@@ -5,3 +5,14 @@ body {
 p {
   color: red;
 }
+
+.container {
+  display: grid;
+  grid-template-columns: 100px 200px 300px;
+  grid-gap: 20px;
+}
+
+.item {
+  background-color: rgb(166, 209, 166);
+  text-align: center;
+}
