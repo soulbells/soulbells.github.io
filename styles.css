@@ -8,11 +8,13 @@ p {
 
 .container {
   display: grid;
-  grid-template-columns: 100px 200px 300px;
+  grid-template-columns: minmax(50px, 1fr) minmax(100px, 2fr) minmax(150px, 3fr);
+  grid-template-rows: 100px 200px 300px;
   grid-gap: 20px;
 }
 
 .item {
-  background-color: rgb(166, 209, 166);
+  background-color: #444;
   text-align: center;
+  color: #fff;
 }
